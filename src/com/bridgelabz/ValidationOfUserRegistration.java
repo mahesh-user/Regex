@@ -7,7 +7,7 @@ public class ValidationOfUserRegistration {
     public void validateFirstName(){
         System.out.println("Enter the First Name");
         String firstName = scanner.next();
-        String regex = "^[A-Z][a-z]{2,}$";
+        String regex = "^[a-z]{5,}|[A-Z][a-z]{2,}$";
         System.out.println(firstName.matches(regex));
     }
 }
