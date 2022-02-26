@@ -4,7 +4,8 @@ public class UserRestration {
     public static void main(String[] args) {
 
         ValidationOfUserRegistration validationOf = new ValidationOfUserRegistration();
-        validationOf.validateFirstName();
-        validationOf.validemail();
+       validationOf.validateFirstName();
+       validationOf.validemail();
+        validationOf.ValidMobileNumber();
     }
 }

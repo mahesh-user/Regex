@@ -1,9 +1,6 @@
 package com.bridgelabz;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class ValidationOfUserRegistration {
     Scanner scanner = new Scanner(System.in);
@@ -21,5 +18,13 @@ public class ValidationOfUserRegistration {
      System.out.println("enter valid gamail");
      String regex =  "^[A-Za-z0-9-._]{1,}+@+[a-z]{1,}+.+[a-z]$";
      System.out.println(gmail.matches(regex));
+ }
+ public void ValidMobileNumber(){
+        Scanner number = new Scanner(System.in);
+     System.out.println(" enter a valid mobile number");
+        String mobilenumber = number.next();
+        String regex = "^[0-9]{2}|[0-9]{10}$";
+     System.out.println(mobilenumber.matches(regex));
+
  }
 }
