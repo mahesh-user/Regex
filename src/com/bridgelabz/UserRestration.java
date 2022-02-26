@@ -6,6 +6,7 @@ public class UserRestration {
         ValidationOfUserRegistration validationOf = new ValidationOfUserRegistration();
        validationOf.validateFirstName();
        validationOf.validemail();
-        validationOf.ValidMobileNumber();
+       validationOf.ValidMobileNumber();
+        validationOf.validatePasswordRuleOne("mahesh129@)+");
     }
 }
